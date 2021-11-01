@@ -6,6 +6,6 @@ fibonacci <- function(nth) {
     }
     fib
 }
-n <- 2501
+n <- 42069
 write.table(as.character(fibonacci(n)), "fibonacci.csv",
     col.names = "Fibonacci Numbers", row.names = FALSE)
